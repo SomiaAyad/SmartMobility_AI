@@ -75,8 +75,10 @@ pip install notebook
 ```bash
 git init
 ```
-## 4. Organisation du projet
 
+
+## 4. Organisation du projet
+```text
 SmartMobility_AI/
 │
 ├── .venv/
@@ -102,8 +104,7 @@ SmartMobility_AI/
 ├── README.md
 ├── DATASET_CARD.md
 └── .gitignore
-
-
+```
 
 ## 5. Project Status
 
