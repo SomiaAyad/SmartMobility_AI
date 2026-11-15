@@ -78,18 +78,35 @@ git init
 
 ## 4. Organisation du projet
 
-```text
+## 4. Organisation du projet
+
 SmartMobility_AI/
 │
-├── .venv/                  # Environnement virtuel
+├── .venv/
 │
-├── exercises/
-│   └── week01/             # Exercices de la première semaine
+├── data/
+│   ├── raw/
+│   │   └── SeoulBikeData.csv
+│   │
+│   └── processed/
+│       └── SeoulBikeData_processed.csv
 │
-├── README.md               # Documentation du projet
+├── Exercices/
+│   └── Week01.ipynb
 │
-└── .gitignore              # Fichiers exclus du versionnement
-```
+├── notebooks/
+│   ├── 02_data_discovery.ipynb
+│   └── 03_eda.ipynb
+│
+├── reports/
+│   ├── figures/
+│   └── eda_summary.md
+│
+├── README.md
+├── DATASET_CARD.md
+└── .gitignore
+
+
 
 ## 5. Project Status
 
@@ -97,9 +114,9 @@ SmartMobility_AI/
 
 Travaux prévus pour cette étape :
 
-* Prise en main du langage Python.
-* Découverte des variables, types, listes et dictionnaires.
-* Utilisation des conditions, boucles et fonctions.
-* Familiarisation avec le terminal et les chemins d'accès.
-* Installation et configuration de l'environnement de développement.
-* Initialisation du dépôt Git.
+ Prise en main du langage Python.
+ Découverte des variables, types, listes et dictionnaires.
+ Utilisation des conditions, boucles et fonctions.
+ Familiarisation avec le terminal et les chemins d'accès.
+ Installation et configuration de l'environnement de développement.
+ Initialisation du dépôt Git.
