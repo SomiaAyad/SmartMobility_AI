@@ -75,9 +75,6 @@ pip install notebook
 ```bash
 git init
 ```
-
-## 4. Organisation du projet
-
 ## 4. Organisation du projet
 
 SmartMobility_AI/
